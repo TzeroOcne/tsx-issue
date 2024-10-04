@@ -5,6 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "start:tsx": "tsx --inspect src/index.ts",
+    "start:ts-node": "node --import ./register/ts-node-esm.js --inspect src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
